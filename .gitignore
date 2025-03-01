@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Models
+data/raw/*
+data/processed/*
+data/*.csv
+models/*.joblib
+models/*.pkl
+!models/.gitkeep
+!data/.gitkeep
+
+# IDEs
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
